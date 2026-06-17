@@ -1,0 +1,6 @@
+opencv-python
+numpy
+mss
+Pillow
+imageio-ffmpeg
+pyinstaller
