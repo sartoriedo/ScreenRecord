@@ -346,6 +346,7 @@ class ScreenRecorder:
     def _after_stop(self):
         self.frames.clear()
         self.record_btn.config(text="Avvia Registrazione", state="normal")
+        self.status_label.config(text="Pronto", fg="#888")
 
 
 if __name__ == "__main__":
